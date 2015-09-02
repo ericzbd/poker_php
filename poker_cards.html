@@ -1,0 +1,40 @@
+<?php session_start() ?>
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+
+<title>World's Lamest Poker Game</title>
+
+<meta charset="utf-8">
+
+<style type="text/css">
+body{
+   text-align:center;
+   background-color: greenyellow;
+}
+img { 
+   background-color: yellow; 
+   border:5px blue;
+   width:65px; 
+   height:80px; 
+}
+</style>
+	
+<script type='text/javascript' src='poker_cards_ajax.js'></script>
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header"> <h1>World's Lamest Poker Game</h1> </div>
+
+<div id='AjaxResponse'>
+<input type='button' onclick='AjaxRequest();' value='throw em down'/><br /><br />
+</div> <!-- end of content -->
+
+</div> <!-- end of wrapper -->
+</body>
+</html>
